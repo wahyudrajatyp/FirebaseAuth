@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirebaseApplication</string>
+    <string name="error" />
+    <string name="saved_message" />
+</resources>

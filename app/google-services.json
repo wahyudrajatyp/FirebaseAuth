@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "98635956842",
+    "firebase_url": "https://fir-application-9572d.firebaseio.com",
+    "project_id": "fir-application-9572d",
+    "storage_bucket": "fir-application-9572d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98635956842:android:9b77f697e1c63116",
+        "android_client_info": {
+          "package_name": "jos.polinema.firebaseapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "98635956842-legt4vav1bmrjspv5vto8uul6it4jfc1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jos.polinema.firebaseapplication",
+            "certificate_hash": "6ee2233b2f706072fb6d28c31a12772d7a92b930"
+          }
+        },
+        {
+          "client_id": "98635956842-oj1kol28kosla31q5v5hsqlrve9jjmhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwFr4Js6EK4afNDtmiCdeNr1xfqclbKAA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "98635956842-oj1kol28kosla31q5v5hsqlrve9jjmhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

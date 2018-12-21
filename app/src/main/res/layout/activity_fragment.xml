@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--container ini di beri bobot yang sma besar agar tampilan terbagi menjadi 2 sama bedar-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--container untuk atas-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_weight="1"
+            android:background="@color/putih"
+            android:id="@+id/atas_container"></FrameLayout>
+        <!--container untuk bawah-->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_weight="1"
+            android:background="@color/putih"
+            android:id="@+id/bawah_container">
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</ScrollView>

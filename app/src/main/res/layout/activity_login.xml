@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtLogin"
+        android:text="LOGIN"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/txtLogin"
+        android:hint="Email Address"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:inputType="textPassword"
+        android:layout_below="@+id/email"
+        android:hint="Password"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_below="@id/password"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id = "@+id/btnRegister"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Register"
+        android:layout_below="@id/btnlogin"
+        android:onClick="Pindah"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:text="Login WITH GOOGLE"
+        android:background="@color/colorAccent"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

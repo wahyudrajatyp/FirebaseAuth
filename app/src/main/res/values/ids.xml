@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="atas_container" type="id" />
+    <item name="imageView" type="id" />
+    <item name="btnSave" type="id" />
+    <item name="btnClear" type="id" />
+    <item name="btnShare" type="id" />
+    <item name="btnTakePicture" type="id" />
+    <item name="titleText" type="id" />
+</resources>
